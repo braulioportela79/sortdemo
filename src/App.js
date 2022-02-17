@@ -27,7 +27,6 @@ function App() {
     setPokemon(pokemonData);
 
   };
-  console.log(pokemon)
   return (
     <div>
       <List sampleData={pokemon} />
